@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+}
+
+.changebg{
+    background-color: brown;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+}
